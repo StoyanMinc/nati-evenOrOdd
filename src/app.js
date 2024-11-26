@@ -1,5 +1,6 @@
-import { evenOrOdd } from "./even-or-odd.js";
-import { showGreetingMsg } from "./views.js";
-evenOrOdd
+import page from '../node_modules/page/page.mjs';
 
-showGreetingMsg();
+import { playView } from './on-play.js';
+
+page('/even-or-odd', playView)
+page.start();

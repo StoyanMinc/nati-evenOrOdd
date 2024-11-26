@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Нати се учи да смяна</title>
+    <title>Нати се на четно или нечетно</title>
     <link rel="stylesheet" href="style.css">
-
+    <script type="module" src="../src/app.js"></script>
 </head>
 
 <body>
@@ -14,29 +14,10 @@
 
         <section id="greeting-msg">
             <h1>Нати, хайде да играем на четно или нечетно!</h1>
-            <button class="btn">Да започваме !</button>
+            <a class="btn" href="/even-or-odd">Да започваме !</a>
         </section>
 
-        <section id="wrong-answer">
-            <h1>Грешен отговор :(</h1>
-            <button class="btn" id="start">Опитай отново :)</button>
-        </section>
-
-        <section id="form">
-            <div class="form">
-                <h4 class="score" id="score">точки: <span id="points">0</span></h4>
-                <h1 id="question">Нати, числото <span id="number">1</span> четно ли е, или нечетно ?</h1>
-                <div id="btn-container">
-                    <button class="btn" name="even" id="even">Четно</button>
-                    <button class="btn" name="odd" id="odd">Нечетно</button>
-                </div>
-            </div>
-        </section>
-
-        <section id="you-win">
-            <h1>Бравоооо!!! Ти победи, спечели <span>10</span> точки!!! </h1>
-            <button class="btn">Да играем отново?</button>
-        </section>
-        <script type="module" src="src/app.js"></script>
+    </div>
+</body>
 
 </html>

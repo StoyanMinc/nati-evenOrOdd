@@ -1,0 +1,19 @@
+{
+  "name": "nati-even-or-odd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "SM",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "lit-html": "^3.2.1",
+    "page": "^1.11.6"
+  }
+}
